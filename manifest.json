@@ -2,7 +2,11 @@
 	"name": "Google+ Restyler",
 	"version": "0",
 	"description": "",
+	"content_scripts": [ {
+		"css": [ "css/test.css" ],
+		"matches": [ "https://plus.google.com/*" ]
+	} ],
 	"permissions": [
-		"tabs", "https://plug.google.com/*"
+		"https://plug.google.com/*"
 	]
 }
