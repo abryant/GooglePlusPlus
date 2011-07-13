@@ -1,0 +1,8 @@
+{
+	"name": "Google+ Restyler",
+	"version": "0",
+	"description": "",
+	"permissions": [
+		"tabs", "https://plug.google.com/*"
+	]
+}
