@@ -118,3 +118,11 @@ body
   line-height: 1.3 !important;
 }
 
+/* Holds the text at the top of a share post
+ * Defaults:
+ *   padding-bottom: 12px
+ */
+.a-f-i-u-ki
+{
+  padding-bottom: 3px !important;
+}
