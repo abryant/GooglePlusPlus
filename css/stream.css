@@ -83,3 +83,24 @@ body
   margin-top: 0px !important;
 }
 
+/* Holds a link in a post
+ * Defaults:
+ *   margin-bottom: 7px;
+ *   margin-top: 5px;
+ */
+.ea-S-A
+{
+  margin-bottom: 1px !important;
+  margin-top: 2px !important;
+}
+
+/* Holds the link and favicon in a link post
+ * Defaults:
+ *   margin-bottom: 4px;
+ *   line-height: 1.4
+ */
+.ea-S-R
+{
+  margin-bottom: 0px !important;
+  line-height: 1.3 !important;
+}
