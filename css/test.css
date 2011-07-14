@@ -4,11 +4,17 @@ body
 	font-family: Calibri, Helvetica, Arial, sans-serif !important;
 }
 
-/* .a-b-f-i is applied to all posts. */
+/* Applied to all posts.
+ * Defaults:
+ *   font-size: 13px;
+ *   line-height: 1.4;
+ *   padding: 16px 21px;
+ */
 .a-b-f-i
 {
-	padding: 2px !important;
-	margin: 2px 0px !important;
+  font-size: 12px !important;
+  line-height: 1.3 !important;
+  padding: 8px !important;
 }
 
 /*
