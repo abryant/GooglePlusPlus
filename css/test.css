@@ -24,3 +24,15 @@ body
 {
   padding-bottom: 3px !important;
 }
+
+/* Holds the text of a post.
+ * Defaults:
+ *   padding-bottom: 12px;
+ *   padding-top: 3px;
+ */
+.a-f-i-p-qb
+{
+  padding-bottom: 3px !important;
+  padding-top: 1px !important;
+}
+
