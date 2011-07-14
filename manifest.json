@@ -5,8 +5,5 @@
 	"content_scripts": [ {
 		"css": [ "css/test.css" ],
 		"matches": [ "https://plus.google.com/*" ]
-	} ],
-	"permissions": [
-		"https://plug.google.com/*"
-	]
+	} ]
 }
