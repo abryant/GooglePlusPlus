@@ -3,7 +3,7 @@
 	"version": "0",
 	"description": "",
 	"content_scripts": [ {
-		"css": [ "css/test.css" ],
+		"css": [ "css/stream.css" ],
 		"matches": [ "https://plus.google.com/*" ]
 	} ]
 }
