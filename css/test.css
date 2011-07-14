@@ -35,6 +35,24 @@ body
   padding-top: 1px !important;
 }
 
+/* Holds the group containing the "+N" and "N shares - ..." elements
+ * Defaults:
+ *   padding: 5px 7px;
+ */
+.a-f-i-Hg-Uf
+{
+  padding: 2px !important;
+}
+
+/* Holds a "+N" or a "N shares" element
+ * Defaults:
+ *   padding: 2px 0;
+ */
+.a-f-i-Uf, .a-f-i-ha, .a-f-i-Hg
+{
+  padding: 1px 0 !important;
+}
+
 /* .a-f-i-W: Holds a comment
  * .a-f-i-WXPuNd: N older comment(s) button
  * Defaults:
