@@ -17,11 +17,10 @@ body
   padding: 8px !important;
 }
 
-/*
- This appears to be for small blocks inside posts, such as the comment and
- share buttons. By default, this has 12px of bottom padding :/
+/* This appears to be for small blocks inside posts, such as the comment and
+ * share buttons. By default, this has 12px of bottom padding :/
  */
 .a-f-i-bg
 {
-	padding-bottom: 2px !important;
+  padding-bottom: 3px !important;
 }
