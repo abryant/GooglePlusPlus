@@ -1,9 +1,12 @@
 {
-	"name": "Google+ Restyler",
-	"version": "0",
-	"description": "",
-	"content_scripts": [ {
-		"css": [ "css/stream.css" ],
-		"matches": [ "https://plus.google.com/*" ]
-	} ]
+  "name": "Google+ Restyler",
+  "version": "0",
+  "description": "",
+  "content_scripts": [ {
+    "css": [
+      "css/stream.css",
+      "css/components.css"
+    ],
+    "matches": [ "https://plus.google.com/*" ]
+  } ]
 }
