@@ -63,3 +63,23 @@ body
   padding: 3px !important;
 }
 
+/* Holds a hangout post's content
+ * Defaults:
+ *   margin-top: 10px;
+ *   padding-bottom: 10px;
+ */
+.a-f-i-ie-p
+{
+  margin-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* Holds the list of names under a hangout post
+ * Defaults:
+ *   margin-top: 5px;
+ */
+.a-f-i-ie-je-oa
+{
+  margin-top: 0px !important;
+}
+
