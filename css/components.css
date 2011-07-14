@@ -1,0 +1,28 @@
+/* Button
+ * Defaults:
+ *   height: 27px;
+ *   line-height: 27px;
+ *   min-width: 54px;
+ *   padding: 0 8px;
+ *   margin-right: 16px;
+ */
+.tk3N6e-e
+{
+  height: 17px !important;
+  line-height: 17px !important;
+  min-width: 34px !important;
+  padding: 0 5px !important;
+  margin-right: 8px !important;
+}
+
+/* Comment text area
+ * Defaults:
+ *   padding: 6px 6px 0 6px;
+ *   min-height: 3.9em;
+ */
+.v-J-n-m
+{
+  padding: 2px 2px 0 2px !important;
+  min-height: 3em !important;
+}
+
