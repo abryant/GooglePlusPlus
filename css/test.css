@@ -36,3 +36,13 @@ body
   padding-top: 1px !important;
 }
 
+/* .a-f-i-W: Holds a comment
+ * .a-f-i-WXPuNd: N older comment(s) button
+ * Defaults:
+ *   padding: 7px;
+ */
+.a-f-i-W, .a-f-i-WXPuNd
+{
+  padding: 3px !important;
+}
+
