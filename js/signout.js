@@ -6,13 +6,37 @@ for (i = 0; i < gbg.childNodes.length; i++)
 {
   if (gbg.childNodes[i].tagName == "OL")
   {
-    gbg.childNodes[i].innerHTML += '<li class="gbt gbtb"><span class=gbts></span></li>' + // Separator
-                                   '<li class=gbt>' + // Sign out button
-                                     '<a class=gbgt href="https://www.google.com/accounts/Logout?service=profiles">' +
-                                       '<span class=gbtb2></span>' +
-                                       '<span class=gbts>Sign out</span>' +
-                                     '</a>' +
-                                   '</li>'
+    window.console.log('Hello - I\'m trying to add a Sign Out button');
+    var target = gbg.childNodes[i];
+
+	// Creates a Seperator Item on this list
+    var cell = document.createElement('li');
+	cell.className = 'gbt gbtb';
+
+	// And the separator itself
+	var span = document.createElement('span');
+	span.className = 'gbts';
+
+	cell.appendChild(span);
+	target.appendChild(cell);
+
+	// And now for the logout button
+	var cell = document.createElement('li'); cell.className = 'gbt';
+	var link = document.createElement('a'); link.className = 'gbgt';
+	link.href = 'https://www.google.com/accounts/Logout?service=profiles';
+
+	var span = document.createElement('span');
+	span.className = 'gbtb2';
+	link.appendChild(span);
+
+	var span = document.createElement('span');
+	span.className = 'gbts';
+	span.textContent = 'Sign out';
+    link.appendChild(span);
+
+	cell.appendChild(link);
+	target.appendChild(cell);
+
   }
 }
 
