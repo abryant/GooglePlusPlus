@@ -1,0 +1,23 @@
+/* 
+ * Header bar with the four main buttons
+ * Default:
+ *
+ *  width: 60px;
+ *  padding-top: 13px;
+ */
+.a-U-A
+{
+  height: 45px !important;
+  padding-top: 5px !important;
+}
+
+/*
+ * Header bar container
+ *
+ * Default:
+ *  height: 60px;
+ */
+.a-U-T
+{
+  height: auto !important;
+}
