@@ -24,6 +24,17 @@ body
   padding-bottom: 3px !important;
 }
 
+/*
+ * Post data container
+ *
+ * Defaults:
+ *   margin-right: 44px;
+ */
+.a-f-i-p
+{
+  margin-right: 0 !important;
+}
+
 /* Holds the text of a post.
  * Defaults:
  *   padding-bottom: 12px;
@@ -33,6 +44,17 @@ body
 {
   padding-bottom: 3px !important;
   padding-top: 1px !important;
+}
+
+/*
+ * Holds the drop down menu at the top right of posts
+ *
+ * Defaults:
+ *   padding-right: -44px;
+ */
+.a-f-i-Ia-D-h
+{
+  margin-right: 0 !important;
 }
 
 /* Holds the group containing the "+N" and "N shares - ..." elements
