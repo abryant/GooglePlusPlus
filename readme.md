@@ -18,7 +18,7 @@ or send a letter to
 
 # What's New
 
-Not a lot at this point - it's mainly just a proof of concept
+ - More accesible sign out button on the top bar
 
 # Code Layout
 
