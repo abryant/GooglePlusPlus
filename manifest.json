@@ -5,6 +5,7 @@
   "content_scripts": [ {
     "css": [
       "css/components.css",
+      "css/left-sidebar.css",
       "css/stream.css",
       "css/topbar.css"
     ],
