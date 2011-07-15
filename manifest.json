@@ -9,6 +9,7 @@
 	  "css/shared_options_and_plus_ones_line.css",
 	  "css/smaller-header-bar.css",
       "css/stream.css",
+      "css/stream-header.css",
       "css/topbar.css"
     ],
     "matches": [ "https://plus.google.com/*" ]
