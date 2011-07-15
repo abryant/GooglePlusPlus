@@ -6,6 +6,7 @@
     "css": [
       "css/components.css",
       "css/left-sidebar.css",
+	  "css/shared_options_and_plus_ones_line.css",
       "css/stream.css",
       "css/topbar.css"
     ],
