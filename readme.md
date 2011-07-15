@@ -16,9 +16,13 @@ or send a letter to
 	California, 
 	94041, USA.
 
-# What's New
+# Features
 
-Not a lot at this point - it's mainly just a proof of concept
+ - New default fonts, smaller font size
+ - Using a lot less padding
+ - +1s and shares limited to one line
+ - +1s and shares shown inline with +1 / sahre button where possible
+ - Top bar doesn't scroll off screen
 
 # Code Layout
 
