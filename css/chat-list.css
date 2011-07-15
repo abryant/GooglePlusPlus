@@ -1,0 +1,25 @@
+.roster_list_item
+{
+  margin-bottom: 1px;
+  line-height: 14px;
+}
+
+.roster_row
+{
+  padding: 0 !important;
+}
+
+.roster_row_table
+{
+  padding: 0 !important;
+}
+
+.roster_row_bubble
+{
+  margin: 0 !important;
+}
+
+.roster_name
+{
+  line-height: 16px !important;
+}
