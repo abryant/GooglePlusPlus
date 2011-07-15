@@ -16,7 +16,7 @@
  * A class apllied to the 'what's new' container when it is closed
  * Not used in CSS by default
  */
-.n-xb
+.n-pw-V-q.n-xb
 {
   display: inline-block;
   width: 500px !important;
@@ -27,7 +27,7 @@
  * A class applied to the 'what's new' container when it is activated
  * Not used in CSS by default
  */
-.n-he {
+.n-pw-V-q.n-he {
   display: block;
   width: 532px !important;
   margin: 5px 21px !important;
