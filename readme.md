@@ -21,15 +21,15 @@ or send a letter to
  - New default fonts, smaller font size
  - Using a lot less padding
  - +1s and shares limited to one line
- - +1s and shares shown inline with +1 / sahre button where possible
+ - +1s and shares shown inline with +1 / share button where possible
  - Top bar doesn't scroll off screen
 
 # Code Layout
 
-The idea is that the google styles are agumented by the ones that are defined
+The idea is that the google styles are augmented by the ones that are defined
 in this project, which are autoloaded by Chrome.
 The stylesheets that we write should be placed in the css/ directory.
-Each declaration should be commented with what objected it will affect (ie you
+Each declaration should be commented with what objects it will affect (ie you
 should work out the purpose(s) of the classes or ids that you are redeclaring).
 
 Each logic change to the styles (eg 'Make top bar float', 'Remove space between
