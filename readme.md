@@ -26,7 +26,7 @@ or send a letter to
 
 # Code Layout
 
-The idea is that the google styles are augmented by the ones that are defined
+The idea is that the Google styles are augmented by the ones that are defined
 in this project, which are autoloaded by Chrome.
 The stylesheets that we write should be placed in the css/ directory.
 Each declaration should be commented with what objects it will affect (ie you
@@ -39,5 +39,5 @@ posts') should be in its own file, and each file should only the CSS it needs.
 
  - Add some actual styles
  - Options page so users can select which style they want
- - Folders for styles not shared between Google Products
+ - Folders for styles not shared between Google products
 
