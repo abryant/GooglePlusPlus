@@ -23,6 +23,7 @@ or send a letter to
  - +1s and shares limited to one line
  - +1s and shares shown inline with +1 / share button where possible
  - Top bar doesn't scroll off screen
+ - More accesible sign out button on the top bar
 
 # Code Layout
 

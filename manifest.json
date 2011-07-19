@@ -13,6 +13,9 @@
       "css/stream-header.css",
       "css/topbar.css"
     ],
+    "js": [
+      "js/signout.js"
+    ],
     "matches": [ "https://plus.google.com/*" ],
 	"all_frames": true
   } ]
