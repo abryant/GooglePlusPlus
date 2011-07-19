@@ -15,6 +15,20 @@
   margin-right: 8px !important;
 }
 
+/* Camera image for uplaod a photo button
+ *
+ * Defaults:
+ *  width: 30px;
+ *  height: 23px;
+ */
+.a-g-I-e-q 
+{
+  width: 20px !important;
+  height: 16px !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* Comment text area
  * Defaults:
  *   padding: 6px 6px 0 6px;
