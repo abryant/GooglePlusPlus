@@ -2,11 +2,10 @@
 // the OL element inside it is where we need to add the sign out button
 // the last element in the OL is the furthest right in the panel, which is where we want to add it
 gbg = document.getElementById("gbg")
-for (i = 0; i < gbg.childNodes.length; i++)
+for (i = gbg.childNodes.length - 1; i >= 0; --i)
 {
   if (gbg.childNodes[i].tagName == "OL")
   {
-    window.console.log('Hello - I\'m trying to add a Sign Out button');
     var target = gbg.childNodes[i];
 
 	// Creates a Seperator Item on this list
@@ -37,6 +36,7 @@ for (i = 0; i < gbg.childNodes.length; i++)
 	cell.appendChild(link);
 	target.appendChild(cell);
 
+	break;
   }
 }
 
