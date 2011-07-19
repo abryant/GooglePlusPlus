@@ -1,5 +1,5 @@
 {
-  "name": "Google+ Restyler",
+  "name": "GooglePlusPlus",
   "version": "0.1",
   "description": "GooglePlusPlus - Chrome Extension for Styling Google Products",
   "content_scripts": [ {
