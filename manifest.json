@@ -18,5 +18,12 @@
     ],
     "matches": [ "https://plus.google.com/*" ],
 	"all_frames": true
+  },
+  {
+    "css": [
+      "css/chat-list.css"
+    ],
+    "matches": [ "https://talkgadget.google.com/*" ],
+	"all_frames": true
   } ]
 }
