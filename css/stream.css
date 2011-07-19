@@ -100,6 +100,14 @@ body
   padding-bottom: 2px !important;
 }
 
+/* Holds a comment aside from the profile pic (ie is the one with the margin)
+ * This forces it to check that it's also the same height as the profile pic
+ * otherwise, they can end up hanging down into the next comment :/
+ */
+.a-f-i-W-Lh-z {
+  min-height: 32px;
+}
+
 /* Holds the list of names under a hangout post
  * Defaults:
  *   margin-top: 5px;
