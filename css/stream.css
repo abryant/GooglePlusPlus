@@ -44,6 +44,7 @@ body
 {
   padding-bottom: 3px !important;
   padding-top: 1px !important;
+  white-space: normal;
 }
 
 /*
@@ -57,6 +58,16 @@ body
   margin-right: 0 !important;
 }
 
+/*
+ * Holds the content of a post, and the +1, comment, share buttons and statistics.
+ */
+.a-f-i-p-r
+{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Holds the group containing the "+N" and "N shares - ..." elements
  * Defaults:
  *   padding: 5px 7px;
@@ -66,6 +77,7 @@ body
   padding: 2px !important;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* Holds a "+N" or a "N shares" element
@@ -75,7 +87,7 @@ body
 .a-f-i-Uf, .a-f-i-ha, .a-f-i-Hg
 {
   padding: 1px 0 !important;
-  display: inline;
+  display: inline-block;
   margin-right: 5px;
 }
 
