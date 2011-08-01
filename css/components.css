@@ -40,3 +40,21 @@
   min-height: 3em !important;
 }
 
+/* Popup to display who has +1'd or shared something.
+ * Defaults:
+ *   padding: 16px;
+ */
+.tk3N6e-Ca
+{
+  padding: 5px !important;
+}
+
+/* Container for a list of people in a +N popup.
+ * Defaults:
+ *   margin-top: 10px;
+ */
+.a-f-ha-oa-qb
+{
+  margin-top: 2px !important;
+}
+
