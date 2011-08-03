@@ -121,6 +121,13 @@ body
   min-height: 32px;
 }
 
+/* Holds the date and buttons under a comment.
+ */
+.kE
+{
+  min-height: 15px;
+}
+
 /* Holds the list of names under a hangout post
  * Defaults:
  *   margin-top: 5px;
