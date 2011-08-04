@@ -2,29 +2,43 @@
   "name": "GooglePlusPlus",
   "version": "0.1",
   "description": "GooglePlusPlus - Chrome Extension for Styling Google Products",
-  "content_scripts": [ {
-    "css": [
-      "plus/css/components.css",
-      "plus/css/left-sidebar.css",
-      "plus/css/notification-list.css",
-      "plus/css/shared_options_and_plus_ones_line.css",
-      "plus/css/smaller-header-bar.css",
-      "plus/css/stream.css",
-      "plus/css/stream-header.css",
-      "plus/css/topbar.css"
-    ],
-    "js": [
-      "plus/js/signout.js"
-    ],
-    "matches": [ "https://plus.google.com/*" ],
-    "all_frames": true
-  },
-  {
-    "css": [
-      "chat/css/chat-list.css"
-    ],
-    "matches": [ "https://talkgadget.google.com/*" ],
-    "all_frames": true
-  }
+  "content_scripts":
+  [
+    {
+      "matches":
+      [
+        "http://*.google.com/*",
+        "http://*.google.co.uk/*",
+        "https://*.google.com/*"
+      ],
+      "all_frames": true,
+      "js":
+      [
+        "common/js/signout.js"
+      ]
+    },
+    {
+      "matches": [ "https://plus.google.com/*" ],
+      "all_frames": true,
+      "css":
+      [
+        "plus/css/components.css",
+        "plus/css/left-sidebar.css",
+        "plus/css/notification-list.css",
+        "plus/css/shared_options_and_plus_ones_line.css",
+        "plus/css/smaller-header-bar.css",
+        "plus/css/stream.css",
+        "plus/css/stream-header.css",
+        "plus/css/topbar.css"
+      ]
+    },
+    {
+      "matches": [ "https://talkgadget.google.com/*" ],
+      "all_frames": true,
+      "css":
+      [
+        "chat/css/chat-list.css"
+      ]
+    }
   ]
 }
