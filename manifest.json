@@ -4,26 +4,27 @@
   "description": "GooglePlusPlus - Chrome Extension for Styling Google Products",
   "content_scripts": [ {
     "css": [
-      "css/components.css",
-      "css/left-sidebar.css",
-	  "css/notification-list.css",
-	  "css/shared_options_and_plus_ones_line.css",
-	  "css/smaller-header-bar.css",
-      "css/stream.css",
-      "css/stream-header.css",
-      "css/topbar.css"
+      "plus/css/components.css",
+      "plus/css/left-sidebar.css",
+      "plus/css/notification-list.css",
+      "plus/css/shared_options_and_plus_ones_line.css",
+      "plus/css/smaller-header-bar.css",
+      "plus/css/stream.css",
+      "plus/css/stream-header.css",
+      "plus/css/topbar.css"
     ],
     "js": [
-      "js/signout.js"
+      "plus/js/signout.js"
     ],
     "matches": [ "https://plus.google.com/*" ],
-	"all_frames": true
+    "all_frames": true
   },
   {
     "css": [
-      "css/chat-list.css"
+      "chat/css/chat-list.css"
     ],
     "matches": [ "https://talkgadget.google.com/*" ],
-	"all_frames": true
-  } ]
+    "all_frames": true
+  }
+  ]
 }
