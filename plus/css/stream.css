@@ -9,7 +9,7 @@ body
  *   line-height: 1.4;
  *   padding: 16px 21px;
  */
-.al
+.Ek
 {
   font-size: 11px !important;
   line-height: 1.3 !important;
@@ -19,7 +19,7 @@ body
 /* This appears to be for small blocks inside posts, such as the comment and
  * share buttons. By default, this has 12px of bottom padding :/
  */
-.Xn
+.Jn
 {
   padding-bottom: 3px !important;
 }
@@ -30,7 +30,7 @@ body
  * Defaults:
  *   margin-right: 44px;
  */
-.us
+.ns
 {
   margin-right: 0 !important;
 }
@@ -40,7 +40,7 @@ body
  *   padding-bottom: 12px;
  *   padding-top: 3px;
  */
-.Mt
+.Gt
 {
   padding-bottom: 3px !important;
   padding-top: 1px !important;
@@ -53,7 +53,7 @@ body
  * Defaults:
  *   margin-right: -44px;
  */
-.Pt
+.Jt
 {
   margin-right: 0 !important;
 }
@@ -61,7 +61,7 @@ body
 /*
  * Holds the content of a post, and the +1, comment, share buttons and statistics.
  */
-.Ty
+.Qy
 {
   white-space: nowrap;
   overflow: hidden;
@@ -72,7 +72,7 @@ body
  * Defaults:
  *   padding: 5px 7px;
  */
-.sz
+.pz
 {
   padding: 2px !important;
   overflow: hidden;
@@ -84,7 +84,7 @@ body
  * Defaults:
  *   padding: 2px 0;
  */
-.kz, .nv, .ov
+.hz, .lv, .mv
 {
   padding: 1px 0 !important;
   display: inline-block;
@@ -96,7 +96,7 @@ body
  * Defaults:
  *   padding: 7px;
  */
-.Xh, .Lt
+.Ah, .Ft
 {
   padding: 3px !important;
 }
@@ -106,7 +106,7 @@ body
  *   margin-top: 10px;
  *   padding-bottom: 10px;
  */
-.fz
+.cz
 {
   margin-top: 2px !important;
   padding-bottom: 2px !important;
@@ -116,14 +116,14 @@ body
  * This forces it to check that it's also the same height as the profile pic
  * otherwise, they can end up hanging down into the next comment :/
  */
-.kv
+.hv
 {
   min-height: 32px;
 }
 
 /* Holds the date and buttons under a comment.
  */
-.kE
+.BE
 {
   min-height: 15px;
 }
@@ -132,7 +132,7 @@ body
  * Defaults:
  *   margin-top: 5px;
  */
-.OB
+.WB
 {
   margin-top: 0px !important;
 }
@@ -142,7 +142,7 @@ body
  *   margin-bottom: 7px;
  *   margin-top: 5px;
  */
-.P-I-z
+.O-F-C
 {
   margin-bottom: 0px !important;
   margin-top: 0px !important;
@@ -154,7 +154,7 @@ body
  *   line-height: 1.4;
  *   font-size: 13px;
  */
-.P-I-S
+.O-F-Q
 {
   margin-bottom: 0px !important;
   line-height: 1.3 !important;
@@ -167,7 +167,7 @@ body
  *   margin-top: 5px;
  *   line-height: 1.4
  */
-.P-I-Cf-Wi, .P-I-Qa-Sl .P-I-Qa-ia
+.O-F-bg-Jj, .O-F-Ja-vl .O-F-Ja-ga
 {
   margin-bottom: 0px !important;
   margin-top: 0px !important;
@@ -178,7 +178,7 @@ body
  * Defaults:
  *   padding-bottom: 12px;
  */
-.tz
+.sz
 {
   padding-bottom: 3px !important;
 }
