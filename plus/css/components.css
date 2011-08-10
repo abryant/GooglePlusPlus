@@ -58,3 +58,29 @@
   margin-top: 2px !important;
 }
 
+/* Container for a share popup
+ * Defaults:
+ *   padding: 35px 40px;
+ */
+.pa-fa
+{
+  padding: 10px 10px !important;
+}
+
+/* Container for a share popup (another class)
+ * Defaults:
+ *   width: 532px;
+ */
+.h-yd-pa
+{
+  width: auto !important;
+}
+
+/* Border element at the bottom of a share popup.
+ * Defaults:
+ *   padding-top: 25px;
+ */
+.pa-fa-ob
+{
+  padding-top: 0px !important;
+}
