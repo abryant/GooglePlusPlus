@@ -58,6 +58,37 @@ body
   margin-right: 0 !important;
 }
 
+/* Holds "Shared by X" sections in incoming
+ * Defaults:
+ *   margin-right: -44px;
+ *   margin-bottom: 15px;
+ *   padding: 10px 15px;
+ */
+.ov
+{
+  margin-right: 0 !important;
+  margin-bottom: 5px !important;
+  padding: 3px 10px 5px 10px !important;
+}
+
+/* Holds the "Add to circles" and "Mute this post" section in incoming
+ * Defaults:
+ *   padding-top: 2px;
+ */
+.vz
+{
+  padding-top: 0px !important;
+}
+
+/* Holds "Mute this post" in incoming
+ * Defaults:
+ *   vertical-align: top;
+ */
+.xz
+{
+  vertical-align: middle !important;
+}
+
 /*
  * Holds the content of a post, and the +1, comment, share buttons and statistics.
  */
