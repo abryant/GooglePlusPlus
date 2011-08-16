@@ -91,12 +91,12 @@ body
   margin-right: 5px;
 }
 
-/* .xH: Holds a comment
- * .Lt: N older comment(s) button
+/* .Ah: Holds a comment
+ * .zK2ipf: N comment(s) button
  * Defaults:
  *   padding: 7px;
  */
-.Ah, .Ft
+.Ah, .zK2ipf
 {
   padding: 3px !important;
 }
