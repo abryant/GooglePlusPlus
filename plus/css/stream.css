@@ -1,6 +1,11 @@
+/* Main HTML body
+ * Defaults:
+ *   font: normal 13px arial,sans-serif;
+ */
 body
 {
   font-family: verdana, Arial, sans-serif !important;
+  font-size: 11px !important;
 }
 
 /* Applied to all posts.
