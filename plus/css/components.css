@@ -85,6 +85,15 @@
   padding-top: 0px !important;
 }
 
+/* Close button on "+N" and "N shares" popups
+ * Defaults:
+ *   padding: 10px;
+ */
+.j-B-Ih
+{
+  padding: 5px !important;
+}
+
 /* Close button on Invite popup.
  * Defaults:
  *   top: -16px;
