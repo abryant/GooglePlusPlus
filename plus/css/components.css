@@ -6,7 +6,7 @@
  *   padding: 0 8px;
  *   margin-right: 16px;
  */
-.j-e
+.g-d
 {
   height: 17px !important;
   line-height: 17px !important;
@@ -15,13 +15,13 @@
   margin-right: 8px !important;
 }
 
-/* Camera image for uplaod a photo button
+/* Camera image for upload a photo button
  *
  * Defaults:
  *  width: 30px;
  *  height: 23px;
  */
-.a-g-u-e-o
+.iF
 {
   width: 20px !important;
   height: 16px !important;
@@ -34,7 +34,7 @@
  *   padding: 6px 6px 0 6px;
  *   min-height: 3.9em;
  */
-.t-n-h-i
+.r-q-h-i
 {
   padding: 2px 2px 0 2px !important;
   min-height: 3em !important;
@@ -44,7 +44,7 @@
  * Defaults:
  *   padding: 16px;
  */
-.j-B
+.g-K
 {
   padding: 5px !important;
 }
@@ -53,7 +53,7 @@
  * Defaults:
  *   margin-top: 10px;
  */
-.Gy
+.Ww
 {
   margin-top: 2px !important;
 }
@@ -62,7 +62,7 @@
  * Defaults:
  *   padding: 35px 40px;
  */
-.pa-fa
+.ka-ca
 {
   padding: 10px 10px !important;
 }
@@ -71,16 +71,17 @@
  * Defaults:
  *   width: 532px;
  */
-.h-yd-pa
+.h-nd-ka
 {
   width: auto !important;
 }
 
 /* Border element at the bottom of a share popup.
+ * TODO: is this required?
  * Defaults:
  *   padding-top: 25px;
  */
-.pa-fa-ob
+.ka-ca-ib
 {
   padding-top: 0px !important;
 }
@@ -89,7 +90,7 @@
  * Defaults:
  *   padding: 10px;
  */
-.j-B-Ih
+.g-K-sg
 {
   padding: 5px !important;
 }
@@ -99,7 +100,7 @@
  *   top: -16px;
  *   right: -20px;
  */
-.pa-fa-Q-Kb
+.ka-ca-Y-xb
 {
   top: 0px !important;
   right: 0px !important;
