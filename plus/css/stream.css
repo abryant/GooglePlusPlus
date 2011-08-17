@@ -145,6 +145,17 @@ body
   padding: 3px !important;
 }
 
+/* Holds a collapsed comment's text
+ * This needs to be N * [line height on comment text] to not cut things off mid-line
+ * So if we change the line height to 1.3, we must update this to be 6 * 1.3
+ * Defaults:
+ *   max-height: 8.4em;
+ */
+.Cm
+{
+  max-height: 7.8em !important;
+}
+
 /* Holds a hangout post's content
  * Defaults:
  *   margin-top: 10px;
