@@ -5,7 +5,7 @@
  * Defaults:
  *   margin: 16p 21px 0 21px
  */
-.aw
+.zw
 {
   display: inline-block;
   margin: 0 !important;
@@ -13,10 +13,10 @@
 }
 
 /*
- * A class apllied to the 'what's new' container when it is closed
+ * A class applied to the 'what's new' container when it is closed
  * Not used in CSS by default
  */
-.h-qa
+.h-la
 {
   display: inline-block;
   width: 500px !important;
@@ -27,7 +27,7 @@
  * A class applied to the 'what's new' container when it is activated
  * Not used in CSS by default
  */
-.h-He
+.h-Fe
 {
   display: block;
   width: 532px !important;
@@ -39,7 +39,7 @@
  * Defaults: 
  *   padding-top: 15px;
  */
-.KB
+.fC
 {
   padding-top: 0 !important;
 }

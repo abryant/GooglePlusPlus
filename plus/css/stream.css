@@ -14,7 +14,7 @@ body
  *   line-height: 1.4;
  *   padding: 16px 21px;
  */
-.zj
+.sj
 {
   font-size: 11px !important;
   line-height: 1.3 !important;
@@ -24,7 +24,7 @@ body
 /* This appears to be for small blocks inside posts, such as the comment and
  * share buttons. By default, this has 12px of bottom padding :/
  */
-.ll
+.ol
 {
   padding-bottom: 3px !important;
 }
@@ -35,7 +35,7 @@ body
  * Defaults:
  *   margin-right: 44px;
  */
-.Dq
+.xq
 {
   margin-right: 0 !important;
 }
@@ -45,7 +45,7 @@ body
  *   padding-bottom: 12px;
  *   padding-top: 3px;
  */
-.co
+.eo
 {
   padding-bottom: 3px !important;
   padding-top: 1px !important;
@@ -58,7 +58,7 @@ body
  * Defaults:
  *   margin-right: -44px;
  */
-.Ls
+.Ps
 {
   margin-right: 0 !important;
 }
@@ -69,7 +69,7 @@ body
  *   margin-bottom: 15px;
  *   padding: 10px 15px;
  */
-.mv
+.Ov
 {
   margin-right: 0 !important;
   margin-bottom: 5px !important;
@@ -80,7 +80,7 @@ body
  * Defaults:
  *   padding-top: 2px;
  */
-.Gx
+.Yx
 {
   padding-top: 0px !important;
 }
@@ -89,7 +89,7 @@ body
  * Defaults:
  *   vertical-align: top;
  */
-.Ix
+.ay
 {
   vertical-align: middle !important;
 }
@@ -97,7 +97,7 @@ body
 /*
  * Holds the content of a post, and the +1, comment, share buttons and statistics.
  */
-.ix
+.Bx
 {
   white-space: nowrap;
   overflow: hidden;
@@ -108,7 +108,7 @@ body
  * Defaults:
  *   padding: 5px 7px;
  */
-.Ax
+.Tx
 {
   padding: 2px !important;
   overflow: hidden;
@@ -120,7 +120,7 @@ body
  * Defaults:
  *   padding: 2px 0;
  */
-.vx, .jv, .kv
+.Ox, .Lv, .Mv
 {
   padding: 1px 0 !important;
   display: inline-block;
@@ -131,7 +131,7 @@ body
  * Defaults:
  *   padding: 7px;
  */
-.eg
+.Tf
 {
   padding: 3px !important;
 }
@@ -140,7 +140,7 @@ body
  * Defaults:
  *   padding: 8px;
  */
-.fx
+.yx
 {
   padding: 3px !important;
 }
@@ -151,7 +151,7 @@ body
  * Defaults:
  *   max-height: 8.4em;
  */
-.Cm
+.Tl
 {
   max-height: 7.8em !important;
 }
@@ -161,7 +161,7 @@ body
  *   margin-top: 10px;
  *   padding-bottom: 10px;
  */
-.YB
+.tC
 {
   margin-top: 2px !important;
   padding-bottom: 2px !important;
@@ -171,14 +171,14 @@ body
  * This forces it to check that it's also the same height as the profile pic
  * otherwise, they can end up hanging down into the next comment :/
  */
-.gv
+.Jv
 {
   min-height: 32px;
 }
 
 /* Holds the date and buttons under a comment.
  */
-.UB
+.pC
 {
   min-height: 15px;
 }
@@ -187,7 +187,7 @@ body
  * Defaults:
  *   margin-top: 5px;
  */
-.Mr
+.Lr
 {
   margin-top: 0px !important;
 }
@@ -197,7 +197,7 @@ body
  *   margin-bottom: 7px;
  *   margin-top: 5px;
  */
-.J-B-z
+.H-y-B
 {
   margin-bottom: 0px !important;
   margin-top: 0px !important;
@@ -209,7 +209,7 @@ body
  *   line-height: 1.4;
  *   font-size: 13px;
  */
-.J-B-Y
+.H-y-Y
 {
   margin-bottom: 0px !important;
   line-height: 1.3 !important;
@@ -222,7 +222,7 @@ body
  *   margin-top: 5px;
  *   line-height: 1.4
  */
-.J-B-Bf-wg, .J-B-Oa-Pk .J-B-Oa-ra
+.H-y-vf-pg, .H-y-Oa-Lk .H-y-Oa-pa
 {
   margin-bottom: 0px !important;
   margin-top: 0px !important;
@@ -233,7 +233,7 @@ body
  * Defaults:
  *   padding-bottom: 12px;
  */
-.Bx
+.Ux
 {
   padding-bottom: 3px !important;
 }
