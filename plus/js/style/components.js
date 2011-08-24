@@ -162,7 +162,7 @@ styles =
 
 for (i in styles)
 {
-  name = findStyleName(styles[i].oldStyle);
-  injectCSS(name, styles[i].addedStyle);
+  styleName = findStyleName(styles[i].oldStyle);
+  injectCSS(styleName, styles[i].addedStyle);
 }
 
