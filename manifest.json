@@ -20,6 +20,11 @@
     {
       "matches": [ "https://plus.google.com/*" ],
       "all_frames": true,
+      "js":
+      [
+        "plus/js/restyle.js",
+        "plus/js/style/left-sidebar.js"
+      ],
       "css":
       [
         "plus/css/components.css",
