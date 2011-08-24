@@ -25,17 +25,6 @@
         "plus/js/restyle.js",
         "plus/js/style/components.js",
         "plus/js/style/left-sidebar.js"
-      ],
-      "css":
-      [
-        "plus/css/components.css",
-        "plus/css/left-sidebar.css",
-        "plus/css/notification-list.css",
-        "plus/css/shared_options_and_plus_ones_line.css",
-        "plus/css/smaller-header-bar.css",
-        "plus/css/stream.css",
-        "plus/css/stream-header.css",
-        "plus/css/topbar.css"
       ]
     },
     {
