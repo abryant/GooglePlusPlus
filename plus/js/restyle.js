@@ -38,6 +38,6 @@ function findStyleName(css)
 
 /* This commented function finds the style sheet for the specified name.
  * Paste it into chrome's Javascript console to use it.
- * function findStyle(name) { for(var s = 0; s < document.styleSheets.length; s++) {for (var rule = 0; rule < document.styleSheets[s].cssRules.length; rule++) { text = document.styleSheets[s].cssRules[rule].cssText; if (text.indexOf(name) != -1) { return text; }}}}
+ * function findStyles(name) { result = []; for(var s = 0; s < document.styleSheets.length; s++) {for (var rule = 0; rule < document.styleSheets[s].cssRules.length; rule++) { text = document.styleSheets[s].cssRules[rule].cssText; if (text.indexOf(name) != -1) { result.push(text); }}} return result;}
  */
 
