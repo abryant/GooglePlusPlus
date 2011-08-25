@@ -25,7 +25,8 @@
         "plus/js/restyle.js",
         "plus/js/style/components.js",
         "plus/js/style/left-sidebar.js",
-        "plus/js/style/notification-list.js"
+        "plus/js/style/notification-list.js",
+        "plus/js/style/header-bar.js"
       ]
     },
     {
