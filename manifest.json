@@ -20,6 +20,10 @@
     {
       "matches": [ "https://plus.google.com/*" ],
       "all_frames": true,
+      "css":
+      [
+        "plus/css/main.css"
+      ],
       "js":
       [
         "plus/js/restyle.js",
