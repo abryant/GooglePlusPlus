@@ -21,7 +21,7 @@ function injectCSS(name, style)
   }
 }
 
-function findStyleName(css)
+function findStyle(css)
 {
   for (var s = 0; s < document.styleSheets.length; s++)
   {
@@ -30,9 +30,19 @@ function findStyleName(css)
       text = document.styleSheets[s].cssRules[rule].cssText;
       if (text.indexOf(css) != -1)
       {
-        return text.replace(/{.*}/, "").trim();
+        return text;
       }
     }
+  }
+}
+
+function addStyle(oldStyle, addedStyle)
+{
+  oldCSS = findStyle(oldStyle);
+  if (oldCSS !== undefined)
+  {
+    newCSS = oldCSS.replace(oldStyle, addedStyle);
+    styleSheet.insertRule(newCSS, styleSheet.cssRules.length);
   }
 }
 

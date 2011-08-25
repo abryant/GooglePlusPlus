@@ -18,7 +18,6 @@ var styles =
 
 for (i in styles)
 {
-  styleName = findStyleName(styles[i].oldStyle);
-  injectCSS(styleName, styles[i].addedStyle);
+  addStyle(styles[i].oldStyle, styles[i].addedStyle);
 }
 
