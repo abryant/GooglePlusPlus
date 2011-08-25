@@ -22,11 +22,13 @@
       "all_frames": true,
       "css":
       [
-        "plus/css/main.css"
+        "plus/css/main.css",
+        "plus/css/no-matches.css"
       ],
       "js":
       [
         "plus/js/restyle.js",
+        "plus/js/style/comments.js",
         "plus/js/style/components.js",
         "plus/js/style/header-bar.js",
         "plus/js/style/incoming.js",

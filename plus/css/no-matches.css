@@ -1,0 +1,12 @@
+/*
+ * None of the CSS classes in this file have styles by default,
+ * so they cannot be added dynamically by javascript.
+ */
+
+
+/* Holds the date and buttons under a comment */
+.XB
+{
+  min-height: 15px;
+}
+
