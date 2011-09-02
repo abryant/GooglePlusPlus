@@ -5,7 +5,6 @@ styles =
   oldStyle:
     "color: rgb(51, 51, 51); " +
     "cursor: pointer; " +
-    "display: block; " +
     "font-size: 13px; " +
     "height: 26px; " +
     "line-height: 26px; " +
