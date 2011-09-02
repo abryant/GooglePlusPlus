@@ -12,37 +12,47 @@ for (var s = 0; s < document.styleSheets.length; s++)
   }
 }
 
-
-function injectCSS(name, style)
+function replaceStyles(oldStyles, addedStyle)
 {
-  if (name !== undefined)
-  {
-    styleSheet.insertRule(name + ' {' + style + '}', styleSheet.cssRules.length);
-  }
-}
-
-function findStyle(css)
-{
+  results = [];
   for (var s = 0; s < document.styleSheets.length; s++)
   {
     for (var rule = 0; rule < document.styleSheets[s].cssRules.length; rule++)
     {
-      text = document.styleSheets[s].cssRules[rule].cssText;
-      if (text.indexOf(css) != -1)
+      var text = document.styleSheets[s].cssRules[rule].cssText;
+      var found = true;
+      for (var i = 0; i < oldStyles.length; i++)
       {
-        return text;
+        if (text.indexOf(oldStyles[i]) == -1)
+        {
+          found = false;
+          break;
+        }
+        // replace the last element of oldStyles with the new style
+        if (i == oldStyles.length - 1)
+        {
+          text = text.replace(oldStyles[i], addedStyle);
+        }
+        else
+        {
+          text = text.replace(oldStyles[i], "");
+        }
+      }
+      if (found)
+      {
+        results[results.length] = text;
       }
     }
   }
+  return results;
 }
 
-function addStyle(oldStyle, addedStyle)
+function writeStyles(oldStyles, addedStyle)
 {
-  oldCSS = findStyle(oldStyle);
-  if (oldCSS !== undefined)
+  results = replaceStyles(oldStyles, addedStyle);
+  for (var i = 0; i < results.length; i++)
   {
-    newCSS = oldCSS.replace(oldStyle, addedStyle);
-    styleSheet.insertRule(newCSS, styleSheet.cssRules.length);
+    styleSheet.insertRule(results[i], styleSheet.cssRules.length);
   }
 }
 
