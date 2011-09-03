@@ -20,6 +20,7 @@
     {
       "matches": [ "https://plus.google.com/*" ],
       "all_frames": true,
+      "run_at": "document_end",
       "css":
       [
         "plus/css/main.css",
@@ -35,7 +36,8 @@
         "plus/js/style/left-sidebar.js",
         "plus/js/style/notification-list.js",
         "plus/js/style/posts.js",
-        "plus/js/style/statistics.js"
+        "plus/js/style/statistics.js",
+        "plus/js/style/stream-header.js"
       ]
     },
     {
