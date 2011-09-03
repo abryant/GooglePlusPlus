@@ -14,7 +14,6 @@ for (var s = 0; s < document.styleSheets.length; s++)
 
 function replaceStyles(oldStyles, addedStyle)
 {
-  results = [];
   for (var s = 0; s < document.styleSheets.length; s++)
   {
     for (var rule = 0; rule < document.styleSheets[s].cssRules.length; rule++)
@@ -40,19 +39,18 @@ function replaceStyles(oldStyles, addedStyle)
       }
       if (found)
       {
-        results[results.length] = text;
+        return text;
       }
     }
   }
-  return results;
 }
 
 function writeStyles(oldStyles, addedStyle)
 {
-  results = replaceStyles(oldStyles, addedStyle);
-  for (var i = 0; i < results.length; i++)
+  result = replaceStyles(oldStyles, addedStyle);
+  if (result !== undefined)
   {
-    styleSheet.insertRule(results[i], styleSheet.cssRules.length);
+    styleSheet.insertRule(result, styleSheet.cssRules.length);
   }
 }
 
