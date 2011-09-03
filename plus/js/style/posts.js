@@ -75,8 +75,85 @@ var styles =
     ],
     addedStyle:
       "margin-right: 0 !important;"
-  }
+  },
 
+  // Holds a hangout post's content
+  {
+    oldStyles:
+    [
+      "border-bottom-width: 1px;", "border-bottom-style: solid;", "border-bottom-color: rgb(227, 227, 227);",
+      "margin-top: 10px;",
+      "padding-bottom: 10px;"
+    ],
+    addedStyle:
+      "margin-top: 2px !important;" +
+      "padding-bottom: 2px !important;"
+  },
+
+  // Holds the list of names under a hangout post
+  {
+    oldStyles:
+    [
+      "color: rgb(101, 101, 101);",
+      "font-weight: normal;",
+      "margin-top: 5px;"
+    ],
+    addedStyle:
+      "margin-top: 0px !important;"
+  },
+
+  // Holds a link in a post
+  {
+    oldStyles:
+    [
+      "margin-bottom: 7px;",
+      "margin-top: 5px;"
+    ],
+    addedStyle:
+      "margin-bottom: 0px !important;" +
+      "margin-top: 0px !important;"
+  },
+
+  // Holds the link and favicon in a link post
+  {
+    oldStyles:
+    [
+      "font-size: 13px;",
+      "font-weight: bold;",
+      "line-height: 1.4;",
+      "margin-bottom: 4px;"
+    ],
+    addedStyle:
+      "margin-bottom: 0px !important;" +
+      "line-height: 1.3 !important;" +
+      "font-size: 11px !important;"
+  },
+
+  // Holds the text under a video post
+  {
+    oldStyles:
+    [
+      "color: rgb(0, 0, 0);",
+      "line-height: 1.4;",
+      "margin-bottom: 3px;",
+      "margin-top: 5px;",
+      "max-width: 402px;"
+    ],
+    addedStyle:
+      "margin-bottom: 0px !important;" +
+      "margin-top: 0px !important;" +
+      "line-height: 1.3 !important;"
+  },
+
+  // Holds the text at the top of a share post
+  {
+    oldStyles:
+    [
+      "{ padding-bottom: 12px; }"
+    ],
+    addedStyle:
+      "{ padding-bottom: 3px !important; }"
+  }
 ]
 
 for (i in styles)
