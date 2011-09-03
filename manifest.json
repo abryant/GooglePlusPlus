@@ -23,8 +23,7 @@
       "run_at": "document_end",
       "css":
       [
-        "plus/css/main.css",
-        "plus/css/no-matches.css"
+        "plus/css/main.css"
       ],
       "js":
       [
