@@ -2,6 +2,7 @@
   "name": "GooglePlusPlus",
   "version": "0.1",
   "description": "GooglePlusPlus - Chrome Extension for Styling Google Products",
+  "update_url": "https://raw.github.com/abryant/GooglePlusPlus/release/updates.xml",
   "content_scripts":
   [
     {
