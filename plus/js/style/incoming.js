@@ -1,4 +1,4 @@
-var styles =
+restyles.push(
 [
   // Holds "Shared by X" sections in incoming
   {
@@ -36,9 +36,5 @@ var styles =
       "vertical-align: middle !important;"
   }
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 

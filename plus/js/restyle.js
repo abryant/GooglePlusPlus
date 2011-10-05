@@ -1,15 +1,36 @@
-var style = document.createElement('style');
-style.type = 'text/css';
-style.title = 'GooglePlusPlusCSS'
-document.getElementsByTagName('head')[0].appendChild(style);
+var restyles = [];
+
 var styleSheet;
-for (var s = 0; s < document.styleSheets.length; s++)
+
+var results;
+var errors;
+
+function createNewStyles()
 {
-  if (document.styleSheets[s].title === 'GooglePlusPlusCSS')
+  var style = document.createElement('style');
+  style.type = 'text/css';
+  style.title = 'GooglePlusPlusCSS'
+  document.getElementsByTagName('head')[0].appendChild(style);
+  for (var s = 0; s < document.styleSheets.length; s++)
   {
-    styleSheet = document.styleSheets[s];
-    break;
+    if (document.styleSheets[s].title === 'GooglePlusPlusCSS')
+    {
+      styleSheet = document.styleSheets[s];
+      break;
+    }
   }
+
+  results = "";
+  errors = "";
+  for (var i = 0; i < restyles.length; i++)
+  {
+    for (var j = 0; j < restyles[i].length; j++)
+    {
+      writeStyles(restyles[i][j].oldStyles, restyles[i][j].addedStyle);
+    }
+  }
+  console.log(results);
+  console.log(errors);
 }
 
 function replaceStyles(oldStyles, addedStyle)
@@ -48,8 +69,13 @@ function replaceStyles(oldStyles, addedStyle)
 function writeStyles(oldStyles, addedStyle)
 {
   result = replaceStyles(oldStyles, addedStyle);
-  if (result !== undefined)
+  if (result === undefined)
   {
+    errors += "Error Replacing styles: " + oldStyles + " with " + addedStyle + "\n";
+  }
+  else
+  {
+    results += result + "\n";
     styleSheet.insertRule(result, styleSheet.cssRules.length);
   }
 }

@@ -1,4 +1,4 @@
-var styles =
+restyles.push(
 [
   // Holds a comment
   // removing the 47px of left padding here puts the profile picture in the space to the left of the whole comment
@@ -58,9 +58,5 @@ var styles =
   }
 
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 

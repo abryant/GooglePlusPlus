@@ -1,4 +1,4 @@
-styles =
+restyles.push(
 [
   // Buttons
   {
@@ -177,9 +177,5 @@ styles =
       "right: 0px !important;"
   }
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 

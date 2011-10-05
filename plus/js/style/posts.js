@@ -1,4 +1,4 @@
-var styles =
+restyles.push(
 [
   // The element surrounding a whole post (including comments etc.)
   {
@@ -155,9 +155,5 @@ var styles =
       "{ padding-bottom: 3px !important; }"
   }
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 

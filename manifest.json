@@ -36,7 +36,8 @@
         "plus/js/style/notification-list.js",
         "plus/js/style/posts.js",
         "plus/js/style/statistics.js",
-        "plus/js/style/stream-header.js"
+        "plus/js/style/stream-header.js",
+        "plus/js/dorestyle.js"
       ]
     },
     {

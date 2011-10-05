@@ -1,4 +1,4 @@
-var styles =
+restyles.push(
 [
   // Header container for the stream page
   {
@@ -45,9 +45,5 @@ var styles =
       "width: auto !important;"
   }
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 

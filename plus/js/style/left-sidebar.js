@@ -1,4 +1,4 @@
-styles =
+restyles.push(
 [
   // Navigation links
   {
@@ -63,9 +63,5 @@ styles =
       "top: 5px !important;"
   }
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 

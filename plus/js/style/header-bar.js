@@ -1,4 +1,4 @@
-var styles =
+restyles.push(
 [
   // Header bar
   {
@@ -53,9 +53,5 @@ var styles =
       "{ height: 45px !important; }"
   }
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 

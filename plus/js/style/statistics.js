@@ -1,4 +1,4 @@
-var styles =
+restyles.push(
 [
   // Holds the "+1 - Comment - Share" buttons
   {
@@ -61,9 +61,5 @@ var styles =
       "margin-right: 5px;"
   }
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 

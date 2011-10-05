@@ -1,4 +1,4 @@
-var styles =
+restyles.push(
 [
   // Class that defines padding on notification list elements
   {
@@ -17,9 +17,5 @@ var styles =
       "padding: 2px 4px 2px 1px !important;"
   }
 ]
-
-for (i in styles)
-{
-  writeStyles(styles[i].oldStyles, styles[i].addedStyle);
-}
+);
 
