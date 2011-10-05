@@ -16,19 +16,19 @@ var styles =
       "min-height: 32px;" // to stop a comment from being smaller than a profile picture
   },
 
-  // HACK: Holds all of the div element inside comments,
-  // specifically the line with the time and the number of +1's on it.
+  // HACK: Holds each of the elements inside comments,
+  // specifically, the line (and components) with the time and the number of +1s on them.
   // Since this line does not have any styles on it by default, the best we can
-  // do is style all div elements under comments.
-  // Luckily all we're changing is min-height, which will only visually affect
-  // the line we need it to.
+  // do is style elements underneath the comments.
+  // Luckily all we're changing are the min-height and vertical-align properties,
+  // which will only visually affect the line we need it to.
   {
     oldStyles:
     [
       "{ border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; border-left-color: transparent; vertical-align: top; margin-bottom: -1px; padding-top: 7px; padding-right: 8px; padding-bottom: 7px; padding-left: 47px; }"
     ],
     addedStyle:
-      " div { min-height: 15px; }"
+      " * { min-height: 15px !important; vertical-align: top !important; }"
   },
 
   // Holds the N comment(s) button
