@@ -35,6 +35,7 @@ function createNewStyles()
 
 function replaceStyles(oldStyles, addedStyle)
 {
+  var result = [];
   for (var s = 0; s < document.styleSheets.length; s++)
   {
     for (var rule = 0; rule < document.styleSheets[s].cssRules.length; rule++)
@@ -60,23 +61,31 @@ function replaceStyles(oldStyles, addedStyle)
       }
       if (found)
       {
-        return text;
+        result.push(text);
       }
     }
   }
+  return result;
 }
 
 function writeStyles(oldStyles, addedStyle)
 {
   result = replaceStyles(oldStyles, addedStyle);
-  if (result === undefined)
+  if (result.length == 0)
   {
     errors += "Error Replacing styles: " + oldStyles + " with " + addedStyle + "\n";
   }
   else
   {
-    results += result + "\n";
-    styleSheet.insertRule(result, styleSheet.cssRules.length);
+    for (var i = 0; i < result.length; i++)
+    {
+      results += result[i] + "\n";
+      styleSheet.insertRule(result[i], styleSheet.cssRules.length);
+    }
+  }
+  if (result.length > 1)
+  {
+    errors += "Multiple rules used for replacing " + oldStyles + " with " + addedStyle + ":\n" + result + "\n";
   }
 }
 
