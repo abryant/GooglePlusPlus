@@ -129,6 +129,19 @@ restyles.push(
       "font-size: 11px !important;"
   },
 
+  // Holds a picture in a link post
+  {
+    oldStyles:
+    [
+      "float: left; ",
+      "margin-right: 10px; ", "margin-top: 3px; ",
+      "max-height: 120px; ",
+      "max-width: 402px;"
+    ],
+    addedStyle:
+      "max-width: 466px !important;"
+  },
+
   // Holds the text under a video post
   {
     oldStyles:
