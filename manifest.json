@@ -23,7 +23,8 @@
       "all_frames": true,
       "css":
       [
-        "plus/css/main.css"
+        "plus/css/main.css",
+        "plus/css/generated.css"
       ],
       "js":
       [
