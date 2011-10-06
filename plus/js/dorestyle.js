@@ -1,6 +1,6 @@
 var eventComponent = document.createElement('input');
 eventComponent.id = 'GooglePlusPlusUpdateButton';
-eventComponent.type = 'submit';
+eventComponent.type = 'hidden';
 eventComponent.value = 'Recreate Google++ Styles';
 eventComponent.addEventListener('click', function()
 {
@@ -8,3 +8,5 @@ eventComponent.addEventListener('click', function()
 });
 document.body.appendChild(eventComponent);
 
+// to use this, type this into the console:
+// document.getElementById('GooglePlusPlusUpdateButton').click()
