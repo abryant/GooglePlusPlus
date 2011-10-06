@@ -22,7 +22,6 @@ restyles.push(
       "height: 100%;",
       "position: relative;",
       "padding-top: 15px;",
-      "width: 574px;",
       "word-wrap: break-word;"
     ],
     addedStyle:

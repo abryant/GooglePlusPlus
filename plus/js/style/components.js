@@ -141,17 +141,13 @@ restyles.push(
   {
     oldStyles:
     [
-      "cursor: pointer;",
-      "height: 9px;",
-      "padding-top: 10px;", "padding-right: 10px;", "padding-bottom: 10px;", "padding-left: 10px;",
-      "position: absolute;",
-      "right: 0px;",
-      "text-align: center;",
-      "top: 0px;",
-      "width: 9px;"
+      "opacity: 0.55; ",
+      "padding-top: 2px; ", "padding-right: 2px; ", "padding-bottom: 2px; ", "padding-left: 2px; ",
+      "position: absolute; ",
+      "right: 0px; ", "top: 0px;"
     ],
     addedStyle:
-      "padding: 5px !important"
+      "padding: 0 !important;"
   },
 
   // Close button on invite popup

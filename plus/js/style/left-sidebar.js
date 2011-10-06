@@ -56,7 +56,28 @@ restyles.push(
       "right: 8px;",
       "top: 9px;",
       "width: 9px;",
-      "background-position: 0px -208px;",
+      "background-position: 0px -187px;",
+      "background-repeat: no-repeat no-repeat;"
+    ],
+    addedStyle:
+      "top: 5px !important;"
+  },
+
+  // Close button next to sparks (hover)
+  {
+    oldStyles:
+    [
+      "background-attachment: initial;",
+      "background-origin: initial;",
+      "background-clip: initial;",
+      "background-color: initial;",
+      "cursor: pointer;",
+      "float: right;",
+      "height: 9px;",
+      "right: 8px;",
+      "top: 9px;",
+      "width: 9px;",
+      "background-position: 0px -177px;",
       "background-repeat: no-repeat no-repeat;"
     ],
     addedStyle:
