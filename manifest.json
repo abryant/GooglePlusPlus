@@ -49,6 +49,27 @@
       [
         "chat/css/chat-list.css"
       ]
+    },
+    {
+      "matches":
+      [
+        "http://mail.google.com/*",
+        "https://mail.google.com/*"
+      ],
+      "all_frames": true,
+      "css":
+      [
+        "mail/css/generated.css"
+      ],
+      "js":
+      [
+        "mail/js/restyle.js",
+        "mail/js/style/components.js",
+        "mail/js/style/compose.js",
+        "mail/js/style/email-list.js",
+        "mail/js/dorestyle.js"
+      ]
     }
   ]
 }
+
