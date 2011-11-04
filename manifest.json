@@ -64,6 +64,7 @@
       ],
       "js":
       [
+        "mail/js/buttons.js",
         "mail/js/restyle.js",
         "mail/js/style/components.js",
         "mail/js/style/compose.js",
