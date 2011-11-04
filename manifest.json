@@ -68,6 +68,7 @@
         "mail/js/restyle.js",
         "mail/js/style/components.js",
         "mail/js/style/compose.js",
+        "mail/js/style/conversation.js",
         "mail/js/style/email-list.js",
         "mail/js/dorestyle.js"
       ]
