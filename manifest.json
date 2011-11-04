@@ -59,8 +59,8 @@
       "all_frames": true,
       "css":
       [
-        "mail/css/generated.css",
-        "mail/css/buttons.css"
+        "mail/css/buttons.css",
+        "mail/css/generated.css"
       ],
       "js":
       [
