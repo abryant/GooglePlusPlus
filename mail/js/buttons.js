@@ -48,6 +48,7 @@ function updateLabels()
         {
           var textNode = document.createTextNode(name);
           insertAfter(child, textNode);
+          child.style.paddingRight = '2px';
           break;
         }
       }

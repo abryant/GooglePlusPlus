@@ -19,7 +19,7 @@ restyles.push(
     addedStyle:
       "height: 20px !important; " +
       "line-height: 20px !important; " +
-      "padding: 0 3px !important;"
+      "padding: 0 5px !important;"
   },
 
   // Fix the positioning of the magnifying glass icon in the search dialog
