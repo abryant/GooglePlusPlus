@@ -75,15 +75,14 @@ function addSignOut()
     document.body.removeEventListener("DOMNodeInserted", handleSignoutInsertionEvent, false);
   }
 }
-var timeout = setTimeout('addSignOut();', 0);
+var timer = setTimeout('addSignOut(); timer = null;', 0);
 
 function handleSignoutInsertionEvent()
 {
-  if (timeout != null)
+  if (timer == null)
   {
-    clearTimeout(timeout);
+    timer = setTimeout('addSignOut(); timer = null;', 0);
   }
-  timeout = setTimeout('addSignOut();', 0);
 }
 
 document.body.addEventListener("DOMNodeInserted", handleSignoutInsertionEvent, false);
