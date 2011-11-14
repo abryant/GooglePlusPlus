@@ -8,8 +8,14 @@ function htmlDecode(input)
   return result;
 }
 
+var added = false;
+
 function addSignOut()
 {
+  if (added)
+  {
+    return;
+  }
   // gbg is the container for the top-right panel
   // the OL element inside it is where we need to add the sign out button
   // the last element in the OL is the furthest right in the panel, which is where we want to add it
@@ -63,6 +69,8 @@ function addSignOut()
 
     cell.appendChild(link);
     target.appendChild(cell);
+
+    added = true;
 
     document.body.removeEventListener("DOMNodeInserted", handleSignoutInsertionEvent, false);
   }
