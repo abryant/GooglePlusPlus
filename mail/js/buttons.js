@@ -1,20 +1,22 @@
-var barHolderName = ':ro';
-var buttonHolderName = 'VP5otc-HT6HAf';
-var iconHolderName = 'QkhFhe';
+var buttonHolderName = 'G-Ni';
+var iconHolderName = 'asa';
 
 function insertAfter(referenceNode, newNode)
 {
   referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
-var ro = document.getElementById(barHolderName);
-if (ro !== null)
+var timeout = setTimeout('updateLabels(); timeout = null;', 0);
+
+document.body.addEventListener("DOMNodeInserted", function(e)
 {
-  ro.addEventListener("DOMNodeInserted", function(e)
+  if (timeout !== undefined && timeout != null)
   {
-    updateLabels();
-  }, false);
-}
+    clearTimeout(timeout);
+    timeout = null;
+  }
+  timeout = setTimeout('updateLabels(); timeout = null;', 0);
+}, false);
 
 var updating = false;
 
