@@ -28,7 +28,7 @@ restyles.push(
       "{ border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; border-left-color: transparent; vertical-align: top; margin-bottom: -1px; padding-top: 7px; padding-right: 8px; padding-bottom: 7px; padding-left: 47px; }"
     ],
     addedStyle:
-      " * { min-height: 15px !important; vertical-align: top !important; }"
+      " > * { min-height: 15px !important; vertical-align: top !important; }"
   },
 
   // Holds the N comment(s) button

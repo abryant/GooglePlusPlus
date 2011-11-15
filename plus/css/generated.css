@@ -1,5 +1,5 @@
 .Qd { padding: 3px !important; min-height: 32px; }
-.Qd * { min-height: 15px !important; vertical-align: top !important; }
+.Qd > * { min-height: 15px !important; vertical-align: top !important; }
 .yx { padding: 3px !important; }
 .nk { max-height: 7.8em !important; }
 .e-b { height: 17px !important;line-height: 17px !important;min-width: 34px !important;padding: 0 5px !important;margin-right: 8px !important; }
