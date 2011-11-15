@@ -193,6 +193,24 @@ restyles.push(
     ],
     addedStyle:
       "margin-top: 2px !important;"
+  },
+
+  // Play button next to the youtube search box (which is on the right and expands on hover)
+  // These need to be made important, because they are overridden by the button restyle
+  {
+    oldStyles:
+    [
+      "min-width: 29px; ",
+      "margin-right: 0px; ",
+      "overflow-x: hidden; ", "overflow-y: hidden; ",
+      "position: absolute; ",
+      "top: 6px;"
+    ],
+    addedStyle:
+      "margin-right: 0px !important;" +
+      "min-width: 29px !important;" +
+      "padding: 0 !important;" +
+      "height: 27px !important;"
   }
 ]
 );
