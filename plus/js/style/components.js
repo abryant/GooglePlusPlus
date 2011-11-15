@@ -141,13 +141,21 @@ restyles.push(
   {
     oldStyles:
     [
-      "opacity: 0.55; ",
-      "padding-top: 2px; ", "padding-right: 2px; ", "padding-bottom: 2px; ", "padding-left: 2px; ",
+      "background-image: url(https://ssl.gstatic.com/ui/v1/icons/common/x_8px.png); ",
+      "background-attachment: initial; ", "background-origin: initial; ", "background-clip: initial; ", "background-color: initial; ",
+      "border-top-width: 1px; ", "border-right-width: 1px; ", "border-bottom-width: 1px; ", "border-left-width: 1px; ",
+      "border-top-style: solid; ", "border-right-style: solid; ", "border-bottom-style: solid; ", "border-left-style: solid; ",
+      "border-top-color: transparent; ", "border-right-color: transparent; ", "border-bottom-color: transparent; ", "border-left-color: transparent; ",
+      "height: 21px; ",
+      "opacity: 0.4; ",
+      "outline-width: 0px; ", "outline-style: initial; ", "outline-color: initial; ",
       "position: absolute; ",
-      "right: 0px; ", "top: 0px;"
+      "right: 2px; ", "top: 2px; ", "width: 21px; ",
+      "background-position: initial initial; ", "background-repeat: no-repeat no-repeat;"
     ],
     addedStyle:
-      "padding: 0 !important;"
+      "top: 0px !important;" +
+      "right: 0px !important;"
   },
 
   // Close button on invite popup
@@ -171,6 +179,20 @@ restyles.push(
     addedStyle:
       "top: 0px !important;" +
       "right: 0px !important;"
+  },
+
+  // Play Video Button
+  {
+    oldStyles:
+    [
+      "background-image: url(https://ssl.gstatic.com/s2/oz/images/sprites/atomic-3f52ff309d5122426d3a7f96ecd4ede7.png); ",
+      "background-attachment: initial; ", "background-origin: initial; ", "background-clip: initial; ", "background-color: initial; ",
+      "float: left; ",
+      "margin-top: 6px; ", "margin-right: 5px; ", "height: 14px; ", "width: 13px; ",
+      "background-position: -56px -44px; ", "background-repeat: no-repeat no-repeat;"
+    ],
+    addedStyle:
+      "margin-top: 2px !important;"
   }
 ]
 );

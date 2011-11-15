@@ -47,7 +47,7 @@ restyles.push(
   {
     oldStyles:
     [
-      "{ height: 60px; }"
+      "{ height: 62px; }"
     ],
     addedStyle:
       "{ height: 45px !important; }"
